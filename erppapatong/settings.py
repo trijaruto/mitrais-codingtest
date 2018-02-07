@@ -140,13 +140,13 @@ DATABASES = {
 }
 
 # POSTGRESQL HEROKU
-#Host : ec2-107-21-95-70.compute-1.amazonaws.com
-#Database : d8e9l1plnimlfh
-#User : tcmrblavnntcqa
+#Host : ec2-23-21-162-90.compute-1.amazonaws.com
+#Database : devomk6sq9q21o
+#User : phnfgaxaggnjij
 #Port : 5432
-#Password : 3052fc5683caa9e2d147028aed08ee0d9a08df540fe70403f6c6ac46a66b527e
-#URI : postgres://tcmrblavnntcqa:3052fc5683caa9e2d147028aed08ee0d9a08df540fe70403f6c6ac46a66b527e@ec2-107-21-95-70.compute-1.amazonaws.com:5432/d8e9l1plnimlfh
-#Heroku CLI : heroku pg:psql postgresql-rugged-13482 --app erppapatong
+#Password : cf4d75cb3289d27af45fe78105e69fd8c0f7d3ea94bc1ff154fd749d7b8b0832
+#URI : postgres://phnfgaxaggnjij:cf4d75cb3289d27af45fe78105e69fd8c0f7d3ea94bc1ff154fd749d7b8b0832@ec2-23-21-162-90.compute-1.amazonaws.com:5432/devomk6sq9q21o
+#heroku pg:psql postgresql-silhouetted-82142 --app erppapatong
 
 
 AUTH_PASSWORD_VALIDATORS = [
