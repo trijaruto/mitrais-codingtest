@@ -123,19 +123,19 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         # LOCALHOST
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'erppapatong',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'erppapatong',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'postgres',
+        # 'HOST': 'localhost',
+        # 'PORT': '5432',
         # HEROKU
-        #  'ENGINE': 'django.db.backends.postgresql',
-        #  'NAME': 'd8e9l1plnimlfh',
-        #  'USER': 'tcmrblavnntcqa',
-        #  'PASSWORD': '3052fc5683caa9e2d147028aed08ee0d9a08df540fe70403f6c6ac46a66b527e',
-        #  'HOST': 'ec2-107-21-95-70.compute-1.amazonaws.com',
-        #  'PORT': '5432',
+         'ENGINE': 'django.db.backends.postgresql',
+         'NAME': 'devomk6sq9q21o',
+         'USER': 'phnfgaxaggnjij',
+         'PASSWORD': 'cf4d75cb3289d27af45fe78105e69fd8c0f7d3ea94bc1ff154fd749d7b8b0832',
+         'HOST': 'ec2-23-21-162-90.compute-1.amazonaws.com',
+         'PORT': '5432',
     }
 }
 
@@ -200,11 +200,11 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 #SERVER LOCAL
-SERVER_SCHEMES = 'http://'
-DOMAIN_NAME = 'localhost:8000'
+# SERVER_SCHEMES = 'http://'
+# DOMAIN_NAME = 'localhost:8000'
 #SERVER HEROKU
-# SERVER_SCHEMES = 'https://'
-# DOMAIN_NAME = 'erppapatong.herokuapp.com'
+SERVER_SCHEMES = 'https://'
+DOMAIN_NAME = 'erppapatong.herokuapp.com'
 
 #CHECKCONNECTIONTOINTERNET
 SERVER_CHECK_CONNECTION_TO = 'www.google.com' #CHECK INTERNET CONNECTION VIA GOOGLE
@@ -244,11 +244,12 @@ APP_DEFAULT_ACCOUNT_ADMINISTRATOR_RANDOM_PASSWORD_DIGIT = 6 #random digit e.x : 
 #RECAPTCHA GOOGLE
 RECAPTCHA_SITEVERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify'
 #LOCAL
-RECAPTCHA_SITEKEY = '6Ldn6w4UAAAAAEuJuTMPWi6tm-1c1N1eSX3oyvtx'
-RECAPTCHA_SECRETKEY = '6Ldn6w4UAAAAAE7qISWKta73KUmvvzQUkWl7Tu_A'
+# RECAPTCHA_SITEKEY = '6Ldn6w4UAAAAAEuJuTMPWi6tm-1c1N1eSX3oyvtx'
+# RECAPTCHA_SECRETKEY = '6Ldn6w4UAAAAAE7qISWKta73KUmvvzQUkWl7Tu_A'
 #PRODUCTION
-# RECAPTCHA_SITEKEY = '6LdPPUAUAAAAAK5ZHApFQEMSe-xxAeOLCkdELICa'
-# RECAPTCHA_SECRETKEY = '6LdPPUAUAAAAADOww0h-h78ULLu57-3HS6vuU0SF'
+#THIS RECAPTCHA STILL USE ACCOUNT GOOGLE : trijaruto@gmail.com
+RECAPTCHA_SITEKEY = '6Ld4BkUUAAAAAMgATciRBd1rUbj2pbuMz6sJ3kX8'
+RECAPTCHA_SECRETKEY = '6Ld4BkUUAAAAAHc1HMPVJP6tYMAaxlty8nCZclce'
 
 #UPLOAD FILE
 APP_UPLOAD_FILE_TYPE = 'cloudinary'
