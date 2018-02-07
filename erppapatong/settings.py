@@ -215,7 +215,7 @@ CORP_NAME = 'PT Papatong Indonesia'
 CORP_ADDRESS = 'Jalan Domain Name System'
 
 #EMAIL CONFIGURATION
-APP_EMAIL = 'info@papatong.com' #EMAIL SENDER
+APP_EMAIL = 'noreply@papatong.com' #EMAIL SENDER
 BCC_EMAIL = ['trijaruto@gmail.com',]
 BCC_EMAIL_ACTIVE = False
 EMAIL_HOST = 'smtp.sendgrid.net'
