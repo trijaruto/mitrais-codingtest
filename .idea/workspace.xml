@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e04efc9-0be5-4886-9a4a-6b3bef72c2f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_apiadmin/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_apiadmin/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/middleware.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/activationadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/forgotpasswordadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/loginadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/removeaccountadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadministrator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/sendactivationadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/signupadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_authadmin/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/appmasteradminform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/appmasteradminlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/dasboardadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/menuadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/menueventadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/indexadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/mainadmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_erpp_mainadmin/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715/_metadata_/metadata_i.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/81eef5d7-a17a-4f95-ad48-dccfc6e60715.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_apiadmin/views.py" afterPath="$PROJECT_DIR$/_erpp_apiadmin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_authadmin/models.py" afterPath="$PROJECT_DIR$/_erpp_authadmin/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_authadmin/views.py" afterPath="$PROJECT_DIR$/_erpp_authadmin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_dasboardadmin/models.py" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_dasboardadmin/views.py" afterPath="$PROJECT_DIR$/_erpp_dasboardadmin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_erpp_mainadmin/views.py" afterPath="$PROJECT_DIR$/_erpp_mainadmin/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erppapatong/settings.py" afterPath="$PROJECT_DIR$/erppapatong/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erppapatong/urls.py" afterPath="$PROJECT_DIR$/erppapatong/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erppapatong/utils/contextdefaultadmin.py" afterPath="$PROJECT_DIR$/erppapatong/utils/contextdefaultadmin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,108 +84,35 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dasboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/dasboard.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="appmasteradminlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/appmasteradminlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="673">
+              <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotpassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/forgotpassword.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="71" column="54" lean-forward="false" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+            <state relative-caret-position="59">
+              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/login.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_erpp_apiadmin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="removeaccount.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/removeaccount.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resetpassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/resetpassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="130" column="58" lean-forward="false" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendemail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erppapatong/utils/sendemail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="153">
+              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1518017605809" expanded="true" signature="5850:6513" ph="SELECT _erpg... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erppapatong/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="212" column="25" lean-forward="true" selection-start-line="212" selection-start-column="25" selection-end-line="212" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,19 +123,19 @@
     <findStrings>
       <find>ss&quot; %}</find>
       <find>&quot;stylesheets</find>
-      <find>css&quot;</find>
       <find>erpgedebog</find>
       <find>erppedebog</find>
-      <find>erpg</find>
+      <find>css&quot;</find>
       <find>jpg&quot;</find>
+      <find>erpg</find>
     </findStrings>
     <replaceStrings>
       <replace>ss' %}</replace>
       <replace>'stylesheets</replace>
-      <replace>css'</replace>
       <replace>erppapatong</replace>
-      <replace>erpp</replace>
+      <replace>css'</replace>
       <replace>jpg'</replace>
+      <replace>erpp</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -185,18 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pipfile" />
-        <option value="$PROJECT_DIR$/erppapatong/wsgi.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/erpp_main/templates/erpg_main/index.html" />
-        <option value="$PROJECT_DIR$/erpp_main/templates/erpg_main/main.html" />
-        <option value="$PROJECT_DIR$/erpp_main/urls.py" />
-        <option value="$PROJECT_DIR$/erpp_main/views.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/erpp_auth/urls.py" />
-        <option value="$PROJECT_DIR$/erpp_auth/models.py" />
-        <option value="$PROJECT_DIR$/erpp_auth/templates/erpg_auth/activation.html" />
-        <option value="$PROJECT_DIR$/erpp_auth/templates/erpg_auth/forgotpassword.html" />
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpg_auth/login.html" />
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpg_auth/removeaccount.html" />
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpg_auth/resetpassword.html" />
@@ -207,7 +159,6 @@
         <option value="$PROJECT_DIR$/erpp_dasboard/models.py" />
         <option value="$PROJECT_DIR$/erpp_dasboard/views.py" />
         <option value="$PROJECT_DIR$/erppapatong/utils/contextdefault.py" />
-        <option value="$PROJECT_DIR$/erppapatong/urls.py" />
         <option value="$PROJECT_DIR$/erppapatong/utils/sendemail.py" />
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpp_auth/login.html" />
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpp_auth/activation.html" />
@@ -217,8 +168,38 @@
         <option value="$PROJECT_DIR$/erpp_auth/templates/erpp_auth/signup.html" />
         <option value="$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/menu.html" />
         <option value="$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/dasboard.html" />
-        <option value="$PROJECT_DIR$/erppapatong/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_erpp_mainadmin/templates/_erpg_mainadmin/mainadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/mainadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/indexadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_mainadmin/urls.py" />
+        <option value="$PROJECT_DIR$/_erpp_mainadmin/views.py" />
+        <option value="$PROJECT_DIR$/erppapatong/utils/contextdefaultadmin.py" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/activationadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/forgotpasswordadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/loginadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/removeaccountadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadministrator.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/sendactivationadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/signupadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/urls.py" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/models.py" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/middleware.py" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/appmasteradminform.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/appmasteradminlist.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/dasboardadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/menuadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/menueventadmin.html" />
+        <option value="$PROJECT_DIR$/_erpp_dasboardadmin/urls.py" />
+        <option value="$PROJECT_DIR$/_erpp_dasboardadmin/models.py" />
+        <option value="$PROJECT_DIR$/_erpp_dasboardadmin/views.py" />
+        <option value="$PROJECT_DIR$/erppapatong/settings.py" />
+        <option value="$PROJECT_DIR$/_erpp_authadmin/views.py" />
+        <option value="$PROJECT_DIR$/_erpp_apiadmin/serializers.py" />
+        <option value="$PROJECT_DIR$/erppapatong/urls.py" />
+        <option value="$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/appmasteradminlist.html" />
+        <option value="$PROJECT_DIR$/_erpp_apiadmin/views.py" />
       </list>
     </option>
   </component>
@@ -234,6 +215,25 @@
     <option name="y" value="47" />
     <option name="width" value="1291" />
     <option name="height" value="701" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -253,6 +253,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,79 +267,35 @@
             <path>
               <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
               <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="_erpp_apiadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
               <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="_erpp_dasboardadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
+              <item name="_erpp_dasboardadmin" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
               <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="_erpp_dasboardadmin" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_dasboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_dasboard" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_dasboard" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="erpp_dasboard" type="462c0819:PsiDirectoryNode" />
+              <item name="_erpp_dasboardadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
               <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
               <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erppapatong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="erppapatong" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +303,7 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bin/python3.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -352,11 +312,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_erpp_apiadmin" />
+      <recent name="$PROJECT_DIR$/_erpp_dasboardadmin" />
+      <recent name="$PROJECT_DIR$/_erpp_authadmin" />
+      <recent name="$PROJECT_DIR$/_erpp_mainadmin" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/erpp_dasboard" />
-      <recent name="$PROJECT_DIR$/erpp_auth" />
-      <recent name="$PROJECT_DIR$/erpp_main" />
-      <recent name="$PROJECT_DIR$/erppapatong" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -469,7 +429,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517977718278</updated>
-      <workItem from="1517977725134" duration="14578000" />
+      <workItem from="1517977725134" duration="15241000" />
+      <workItem from="1518012815260" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1517991200444</created>
@@ -489,40 +450,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14578000" />
+    <option name="totallyTimeSpent" value="20031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4548552" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25255704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4548552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25570416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,250 +503,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest_framework/utils/html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/static/errors/error404.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/81eef5d7-a17a-4f95-ad48-dccfc6e60715/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/utils/aescrypto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/templates/erpp_main/nocon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/templates/erpp_main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/templates/erpp_main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/c730c0ed/81eef5d7-a17a-4f95-ad48-dccfc6e60715/erppapatong.public.django_session">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/utils/checkconnection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_auth/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_auth/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_dasboard/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_dasboard/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_dasboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/utils/contextdefault.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#635#667#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_auth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erpp_auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/activation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/forgotpassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="1207">
           <caret line="71" column="54" lean-forward="false" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
           <folding />
         </state>
@@ -810,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/resetpassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="2210">
           <caret line="130" column="58" lean-forward="false" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
           <folding />
         </state>
@@ -818,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erpp_auth/templates/erpp_auth/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="1972">
           <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
           <folding />
         </state>
@@ -826,10 +552,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erppapatong/utils/sendemail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="102">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -844,15 +570,7 @@
     <entry file="file://$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/dasboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erppapatong/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="212" column="25" lean-forward="true" selection-start-line="212" selection-start-column="25" selection-end-line="212" selection-end-column="25" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -861,7 +579,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="170">
-            <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
@@ -870,9 +588,346 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erpp_dasboard/templates/erpp_dasboard/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="219">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erppapatong/templates/erppapatong/email/resetpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="31" lean-forward="false" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/mainadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="83" lean-forward="false" selection-start-line="142" selection-start-column="83" selection-end-line="142" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_mainadmin/templates/_erpp_mainadmin/indexadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_mainadmin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_mainadmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/activationadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/forgotpasswordadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/loginadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="91" column="64" lean-forward="false" selection-start-line="91" selection-start-column="64" selection-end-line="91" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/removeaccountadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="130" column="82" lean-forward="false" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/resetpasswordadministrator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="15" column="95" lean-forward="false" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/sendactivationadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="96" lean-forward="false" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpp_authadmin/signupadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="117" column="78" lean-forward="false" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erpp_auth/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/appmasteradminform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/appmasteradminlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/dasboardadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/menuadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/templates/_erpg_dasboardadmin/menueventadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_authadmin/loginadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erppapatong/utils/contextdefaultadmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c730c0ed/81eef5d7-a17a-4f95-ad48-dccfc6e60715/erppapatong.public._erpp_dasboardadmin_appmasteradminpermissionform">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c730c0ed/81eef5d7-a17a-4f95-ad48-dccfc6e60715/erppapatong.public._erpp_authadmin_usertypeadmin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_apiadmin/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erppapatong/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_authadmin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_apiadmin/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_apiadmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erppapatong/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c730c0ed/81eef5d7-a17a-4f95-ad48-dccfc6e60715/erppapatong.public._erpp_dasboardadmin_appmasteradminstructure">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/templates/_erpp_dasboardadmin/appmasteradminlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_dasboardadmin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_erpp_apiadmin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <marker date="1518017605809" expanded="true" signature="5850:6513" ph="SELECT _erpg... " />
+          </folding>
         </state>
       </provider>
     </entry>

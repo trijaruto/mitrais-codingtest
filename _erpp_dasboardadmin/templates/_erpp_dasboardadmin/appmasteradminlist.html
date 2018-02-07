@@ -1,0 +1,75 @@
+{% extends "_erpp_dasboardadmin/menueventadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block appformlist %}
+
+    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />-->
+
+    <script src="{% static 'fancytree-master/lib/jquery-ui.custom.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'fancytree-master/src/skin-win8/ui.fancytree.css' %}">
+    <script src="{% static 'fancytree-master/src/jquery.fancytree.js' %}"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.2.3/jquery.contextMenu.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.2.3/jquery.contextMenu.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+           getLoadFancyTreeRoot();
+        });
+
+        /*LOAD FANCYMENU TREE */
+        function getLoadFancyTreeRoot(){
+            $("#tree").fancytree({
+                extensions: [],
+                source: { url : "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/api/appmasteradmin/fancytree/list/type/ROT/level/0/?format=json" },
+                activate: function(event, data){
+                    $("#statusLine").text(event.type + " : (key = "+data.node.key+", type = "+data.node.type+")");
+                },
+                lazyLoad: function(event, data) {
+                    data.result = { url: "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/api/appmasteradmin/inner/appmasteradminstructure/by/parentid/"+data.node.key+"/fancytree/list/?format=json" }
+                }
+            });
+
+            $.contextMenu({
+                selector: "#tree span.fancytree-title",
+                items: {
+                    "view": {name: "View", icon: "view" },
+                    "new": {name: "New", icon: "new" },
+                    "sep1": "----",
+                    "edit": {name: "Edit", icon: "edit" },
+                    "delete": {name: "Delete", icon: "delete" },
+                },
+                callback: function(itemKey, opt) {
+                    var node = $.ui.fancytree.getNode(opt.$trigger);
+                    if (itemKey=="view"){
+                        $(location).attr('href', "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/dasboard/appmasteradmin/{{ constantsdata.PAGE_FORM }}/{{ constantsdata.EVENT_VIEW }}/"+node.key+"/");
+                    }else if (itemKey=="new"){
+                        $(location).attr('href', "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/dasboard/appmasteradmin/{{ constantsdata.PAGE_FORM }}/{{ constantsdata.EVENT_NEW }}/"+node.key+"/");
+                    }else if (itemKey=="edit"){
+                        $(location).attr('href', "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/dasboard/appmasteradmin/{{ constantsdata.PAGE_FORM }}/{{ constantsdata.EVENT_EDIT }}/"+node.key+"/");
+                    }else if (itemKey=="delete"){
+                        $(location).attr('href', "{{ constantsdata.SERVER_SCHEMES }}/erpp/admin/dasboard/appmasteradmin/{{ constantsdata.PAGE_FORM }}/{{ constantsdata.EVENT_DELETE }}/"+node.key+"/");
+                    }
+                }
+            });
+        }
+    </script>
+
+    <div class="row">
+        <div class="center aligned column">
+            <h1>APP MASTER ADMIN</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="left aligned column">
+            <!-- Tree wrapper -->
+            <div id="tree"></div>
+            <hr />
+            <div id="statusLine">Fancytree Demo - Click any node!</div>
+            <div id="selected-action">Click right mouse button on node</div>
+        </div>
+    </div>
+
+{% endblock %}

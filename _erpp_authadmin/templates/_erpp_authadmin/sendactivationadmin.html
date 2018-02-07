@@ -1,0 +1,85 @@
+{% extends "_erpp_mainadmin/mainadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+
+    <script>
+        $(document)
+            .ready(function() {
+                $("#send_activation_code_div_id")
+                    .on('click', function() {
+                        $("#send_activation_code_modal_id").modal('show');
+                    });
+            });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/sendactivationadmin.css' %}">
+
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    {% if url_link_expired %}
+                        <h3 class="ui header">Link Expired</h3>
+                    {% else %}
+                        {% if messages %}
+                            <h3 class="ui header">Email Activation Link
+                                <a class="ui label blue">
+                                    <i class="mail icon"></i>{{ uaa_username_purl_value }}
+                                </a>
+                            </h3>
+                            {% for message in messages %}
+                                {{ message }}
+                            {% endfor %}
+                        {% else %}
+                            <h3 class="ui header">Link activation code will be sent to
+                                <a class="ui label blue">
+                                    <i class="mail icon"></i>{{ uaa_username_purl_value }}
+                                </a>
+                            </h3>
+                            <div id="send_activation_code_div_id" class="ui buttons">
+                                <button id="password_administrator_reset_button_id" class="ui green button">
+                                    <i class="unlock  icon"></i>
+                                    Send Link Activation Code
+                                </button>
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="send_activation_code_modal_id" class="ui basic modal">
+        <div class="ui icon header">
+            <i class="reset icon"></i>
+            Send Link Activation Code
+        </div>
+        <div class="content">
+            <p> Link activation code will be sent to {{ uaa_username_purl_value }}. Are you sure, want to send link activation code?</p>
+        </div>
+        <div class="actions">
+            <form action="{% url '_erpp_authadmin:onsendactivation' %}" method="post">
+                {% csrf_token %}
+                <input id="uaa_username_purl_id" name="uaa_username_purl_name" value="{{ uaa_username_purl_value }}" type="hidden">
+                <input id="url_send_activation_code_id" name="url_send_activation_code_name" value="{{ url_send_activation_code_value }}" type="hidden">
+                <div class="ui buttons">
+                    <button id="send_activation_code_yes_button_id" name="send_activation_code_yes_button_name" class="ui green ok button" type="submit">
+                        <i class="checkmark icon"></i>
+                        Yes
+                    </button>
+                </div>
+                <div class="ui buttons">
+                    <button id="send_activation_code_no_button_id" name="send_activation_code_no_button_name" class="ui red cancel button" type="button">
+                        <i class="remove icon"></i>
+                        No
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+{% endblock %}

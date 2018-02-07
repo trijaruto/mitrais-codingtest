@@ -1,5 +1,5 @@
 from django.urls import reverse
-from _erpg_authadmin.models import useraccountadmin
+from _erpp_authadmin.models import useraccountadmin
 from django.conf import settings
 
 class ContextDefaultAdmin(object):
@@ -8,16 +8,16 @@ class ContextDefaultAdmin(object):
         self.request = request
 
     def on_get_context_notinsession_admin(self):
-        self.context['url_logn_dash'] = reverse('_erpg_authadmin:login')
-        self.context['url_sign_logt'] = reverse('_erpg_authadmin:signup')
+        self.context['url_logn_dash'] = reverse('_erpp_authadmin:login')
+        self.context['url_sign_logt'] = reverse('_erpp_authadmin:signup')
         self.context['logn_dash'] = 'Login'
         self.context['sign_logt'] = 'Signup'
         return self.context
 
     def on_get_context_insession_admin(self):
         uaa_username_session = self.request.session['session_username_admin']
-        self.context['url_logn_dash'] = reverse('_erpg_dasboardadmin:dasboard')
-        self.context['url_sign_logt'] = reverse('_erpg_authadmin:onlogout')
+        self.context['url_logn_dash'] = reverse('_erpp_dasboardadmin:dasboard')
+        self.context['url_sign_logt'] = reverse('_erpp_authadmin:onlogout')
         self.context['icon_logn_dash'] = '<i class="user icon"></i>'
         self.context['icon_sign_logt'] = '<i class="power icon"></i>'
         self.context['logn_dash'] = uaa_username_session
@@ -38,7 +38,7 @@ class ContextDefaultAdmin(object):
         return self.context
 
     def get_context_html_menu_administrator(self):
-        contextmenu = ('<a class="header item" href="'+reverse('_erpg_dasboardadmin:appmasteradmin-list')+'">'
+        contextmenu = ('<a class="header item" href="'+reverse('_erpp_dasboardadmin:appmasteradmin-list')+'">'
                           '<i class="desktop icon"></i>' 
                           'App Master Admin'
                        '</a>'

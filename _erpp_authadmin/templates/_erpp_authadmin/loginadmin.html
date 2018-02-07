@@ -1,0 +1,96 @@
+{% extends "_erpp_mainadmin/mainadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+
+    <script>
+        $(document)
+            .ready(function() {
+                $('.ui.form')
+                    .form({
+                        fields: {
+                            email: {
+                                identifier  : 'uaa_username_id',
+                                rules: [
+                                    {
+                                        type   : 'empty',
+                                        prompt : 'Please enter your e-mail'
+                                    },
+                                    {
+                                        type   : 'email',
+                                        prompt : 'Please enter a valid e-mail'
+                                    }
+                                ]
+                            },
+                            password: {
+                                identifier  : 'uaa_userpassword_id',
+                                rules: [
+                                    {
+                                        type   : 'empty',
+                                        prompt : 'Please enter your password'
+                                    },
+                                    {
+                                        type   : 'length[6]',
+                                        prompt : 'Your password must be at least 6 characters'
+                                    }
+                                ]
+                            }
+                        }
+                    })
+                ;
+            });
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/login.css' %}">
+    <div class="ui vertical stripe segment">
+        <div class="ui text container login">
+            <h2 class="ui teal image header">
+                <img src="{% static 'semanticadmin/assets/images/logo.png' %}" class="image">
+                <div class="content">
+                    Log-in to your admin account
+                </div>
+            </h2>
+
+            <div class="ui large form">
+                <div class="ui stacked segment">
+                    <form action="{% url '_erpp_authadmin:onlogin' %}" method="post">
+                        {% csrf_token %}
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="mail outline icon"></i>
+                                <input type="text" id="uaa_username_id" name="uaa_username_name" placeholder="E-mail address">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" id="uaa_userpassword_id" name="uaa_userpassword_name" placeholder="Password">
+                            </div>
+                        </div>
+                        <input type="submit" class="ui fluid large teal submit button" value="Login">
+                    </form>
+
+                    <div class="ui error message">
+                    </div>
+
+                    {% if messages %}
+                        <div class="ui negative message">
+                            <ul class="list">
+                                {% for message in messages %}
+                                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+
+                </div>
+            </div>
+
+
+            <div class="ui message">
+                <a href="{% url '_erpp_authadmin:forgotpassword' %}">Forgot your password admin?</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

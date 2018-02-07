@@ -24,9 +24,9 @@ urlpatterns = [
     url(r'^', include('erpp_auth.urls')),
     url(r'^', include('erpp_dasboard.urls')),
     #ADMIN
-    #url(r'^erpg/admin/', include('_erpg_mainadmin.urls')),
-    #url(r'^erpg/admin/', include('_erpg_authadmin.urls')),
-    #url(r'^erpg/admin/', include('_erpg_dasboardadmin.urls')),
-    #API
-    #url(r'^api/', include('erpg_api.urls')),
+    url(r'^erpp/admin/', include('_erpp_mainadmin.urls')),
+    url(r'^erpp/admin/', include('_erpp_authadmin.urls')),
+    url(r'^erpp/admin/', include('_erpp_dasboardadmin.urls')),
+    #WEB API ADMIN (REST)
+    url(r'^erpp/admin/api/', include('_erpp_apiadmin.urls')),
 ]

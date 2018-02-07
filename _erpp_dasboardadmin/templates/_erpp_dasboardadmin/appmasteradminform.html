@@ -1,0 +1,123 @@
+{% extends "_erpp_dasboardadmin/menueventadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block appformmain %}
+
+    <!--<div class="row">
+        <div class="center aligned column">
+            <h1>FORM MAIN</h1>{{ appformevent }}
+        </div>
+    </div>-->
+
+    <div class="row">
+        <div class="left aligned column">
+            <div id="form_id" class="ui form raised segment">
+                <a class="ui blue ribbon label"><h4>Application Master</h4></a>
+                <p></p>
+                <div class="row">
+                    <div class="ui grid">
+                        <div class="sixteen wide column">
+                            <div class="field">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="ui grid">
+                        <div class="sixteen wide column">
+                            <div class="field">
+                                <h5 class="ui dividing header">
+                                    <i class="user icon"></i>
+                                    Parent
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="ui grid">
+                        <div class="eight wide column">
+                            <div class="field">
+                                <label>Name</label>
+                                <div id="ama_name_div_label_id" class="ui large label">
+                                    <i class="mail outline icon"></i>@userAccountAdmin.getUaa_username()
+                                </div>
+                                <!--{% if appformevent == constantsdata.EVENT_NEW %}
+                                <div id="uaa_username_div_input_id" class="ui left icon input">
+                                    <i class="mail outline icon"></i>
+                                    <input id="uaa_username_input_id" name="uaa_username_name" value="@userAccountAdmin.getUaa_username()"  placeholder="E-mail address" type="text">
+                                </div>
+                                {% else %}
+                                <div id="uaa_username_div_label_id" class="ui large label">
+                                    <i class="mail outline icon"></i>@userAccountAdmin.getUaa_username()
+                                </div>
+                                {% endif %}-->
+                            </div>
+                            <div class="field">
+                                <label>Type</label>
+                                <div id="ama_type_div_label_id" class="ui large label">
+                                    <i class="mail outline icon"></i>@userAccountAdmin.getUaa_username()
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eight wide column">
+                            <div class="field">
+                                <label>Level</label>
+                                <div id="ama_level_div_label_id" class="ui large label">
+                                    <i class="mail outline icon"></i>@userAccountAdmin.getUaa_username()
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Group</label>
+                                <div id="ama_group_div_label_id" class="ui large label">
+                                    <i class="mail outline icon"></i>@userAccountAdmin.getUaa_username()
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="ui grid">
+                        <div class="sixteen wide column">
+                            <div class="field">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="ui grid">
+                        <div class="one wide column">
+                            <div class="cente aligned field">
+                                <h5 class="ui header">
+                                    <i class="chevron right icon"></i>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="fifteen wide column">
+                            <div class="field">
+                                <h5 class="ui dividing header">
+                                    <i class="users icon"></i>
+                                    Child
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+{% endblock %}

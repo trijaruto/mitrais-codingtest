@@ -1,0 +1,27 @@
+{% extends "_erpp_mainadmin/mainadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/removeaccountadmin.css' %}">
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    {% if url_useraccount_doesnotexist %}
+                        <h3 class="ui header">Cannot find your account admin {{ uaa_username_purl }} in {{ appname }}</h3>
+                        <p>create your account admin <a href="{{ url_sign_logt }}">{{ appname }}</a> or contact your administrator<br/>
+                    {% else %}
+                        {% if ua_isactive %}
+                            <h3 class="ui header">Cannot remove your account admin {{ ua_username_purl }}</h3>
+                            <p>your account admin has been active in {{ appname }}</p>
+                            <p>If you didn't create this SFCloud account admin and activated, please contact administrator to remove your account admin</p>
+                        {% else %}
+                            <h3 class="ui header">Your account admin {{ ua_username_purl }} has been removed</h3>
+                            <p>create your account admin <a href="{{ url_sign_logt }}">{{ appname }}</a>.<br/>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

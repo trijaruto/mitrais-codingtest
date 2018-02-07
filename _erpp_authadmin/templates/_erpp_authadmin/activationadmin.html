@@ -1,0 +1,25 @@
+{% extends "_erpp_mainadmin/mainadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/activationadmin.css' %}">
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    {% if url_link_expired %}
+                        <h3 class="ui header">Link Expired</h3>
+                    {% else %}
+                        {% if on_session %}
+                            <h3 class="ui header">Your account admin has been activated</h3>
+                            <p>Welcome {{ uaa_username_purl_value }}, to {{ appname }} admin</p>
+                        {% else %}
+                            <h3 class="ui header">Your account {{ uaa_username_purl_value }} has been activated</h3>
+                            You can login to your account admin at <a href="{{ url_logn_dash }}">{{ appname }} Login</a>.<br/>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

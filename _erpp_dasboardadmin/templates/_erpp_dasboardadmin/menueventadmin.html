@@ -1,0 +1,38 @@
+{% extends "_erpp_dasboardadmin/menuadmin.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block menuevent %}
+
+    <div class="row">
+        <div class="center aligned column">
+            <div class="ui top attached menu">
+                <div class="ui dropdown icon item">
+                    <i class="wrench icon"></i>
+                    <div class="menu">
+                    </div>
+                </div>
+                <a href="#" class="item">
+                    <i class="list layout icon"></i>
+                </a>
+                <div class="right menu">
+                    <div class="ui right aligned category search item">
+                        <div class="ui transparent icon input">
+                            <input id="#" class="global_filter prompt" placeholder="Search" type="text">
+                            <i class="search link icon"></i>
+                        </div>
+                        <div class="results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if formlist %}
+        {% block appformlist %}{% endblock %}
+    {% else %}
+        {% block appformmain %}{% endblock %}
+    {% endif %}
+
+{% endblock %}
+

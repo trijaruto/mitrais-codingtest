@@ -39,18 +39,18 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    #USER
+    #APP USER
     'erpp_main.apps.ErppMainConfig',
     'erpp_auth.apps.ErppAuthConfig',
     'erpp_dasboard.apps.ErppDasboardConfig',
-    #ADMIN
-    #'_erpg_mainadmin.apps.ErpgMainadminConfig',
-    #'_erpg_authadmin.apps.ErpgAuthadminConfig',
-    #'_erpg_dasboardadmin.apps.ErpgDasboardadminConfig',
-    #REST FRAMEWORK
-    #'rest_framework.apps.RestFrameworkConfig',
-    #API
-    #'erpg_api.apps.ErpgApiConfig',
+    #APP ADMIN
+    '_erpp_mainadmin.apps.ErppMainadminConfig',
+    '_erpp_authadmin.apps.ErppAuthadminConfig',
+    '_erpp_dasboardadmin.apps.ErppDasboardadminConfig',
+    #APP REST FRAMEWORK
+    'rest_framework.apps.RestFrameworkConfig',
+    #APP API ADMIN
+    '_erpp_apiadmin.apps.ErppApiadminConfig',
 ]
 
 REST_FRAMEWORK = {
@@ -90,7 +90,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'erpp_auth.middleware.ErpAuthSessionExpiredMiddleware',
-    #'_erpg_authadmin.middleware.ErpgAuthAdminSessionExpiredMiddleware',
+    '_erpp_authadmin.middleware.ErpAuthAdminSessionExpiredMiddleware',
 ]
 
 ROOT_URLCONF = 'erppapatong.urls'

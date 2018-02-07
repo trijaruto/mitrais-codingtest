@@ -1,0 +1,60 @@
+{% extends "_erpp_mainadmin/mainadmin.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+
+            {% if uaa_isactive %}
+
+                <div class="row">
+                    <div class="center aligned column">
+                        <div class="ui menu">
+                            {{ menuadmin|safe}}
+                           <!-- <a class="item">Browse</a>
+                            <a class="item">Submit</a>
+                            <div class="right menu">
+                                <div class="item">
+                                    <div class="ui action left icon input">
+                                        <i class="search icon"></i>
+                                        <input type="text" placeholder="Search menu">
+                                        <button class="ui button">Submit</button>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+            {% else %}
+
+                <div class="row">
+                    <div class="center aligned column">
+                        <div class="ui negative message">
+                            <div class="header">
+                                Your account admin hasn't activated yet, please contact administrator to activated.
+                            </div>
+                            <p>
+                                {% if messages %}
+                                    {% for message in messages %}
+                                        {{ message }}
+                                    {% endfor %}
+                                {% else %}
+                                    <a href="{% url '_erpp_dasboardadmin:requestactivation' %}">Send request activation account admin</a>
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            {% endif %}
+
+
+            {% block menuevent %}{% endblock %}
+
+        </div>
+    </div>
+
+{% endblock %}
+
