@@ -1,0 +1,191 @@
+{% load static %}
+
+<!--<!DOCTYPE html>-->
+<html lang="en" xmlns:erpg_main="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <title>{% block title %}{% endblock %}</title>
+
+
+        <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/index.css' %}">
+
+        <script src="{% static 'semantic/assets/library/jquery.min.js' %}"></script>
+        <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/popup.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/dropdown.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/checkbox.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/sidebar.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/transition.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/visibility.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/form.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/rating.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/dimmer.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/modal.js' %}"></script>
+        <script src="{% static 'semantic/dist/components/transition.js' %}"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <script>
+            $(document)
+                .ready(function() {
+                    $('.ui.menu .ui.dropdown').dropdown({
+                        on: 'click'
+                    });
+                    $('.ui.menu a.item')
+                        .on('click', function() {
+                            $(this)
+                                .addClass('active')
+                                .siblings()
+                                .removeClass('active');
+                        });
+                });
+        </script>
+
+
+        <script>
+            $(document)
+                .ready(function() {
+                    // fix menu when passed
+                    $('#master-menu')
+                        .visibility({
+                            once: false,
+                            onBottomPassed: function() {
+                                $('#following-menu').transition('fade in');
+                            },
+                            onBottomPassedReverse: function() {
+                                $('#following-menu').transition('fade out');
+                            }
+                        });
+
+                    // create sidebar and attach to menu open
+                    $('#sidebar-menu')
+                        .sidebar('attach events', '.toc.item');
+                });
+        </script>
+
+        <script>
+            $(document)
+                .ready(function() {
+                    $('#button-popup-profile')
+                        .popup({
+                            popup : $('#popup-profile'),
+                            on    : 'click',
+                            position  : 'bottom left'
+                        }) ;
+                });
+        </script>
+
+        <script>
+            $(document)
+                .ready(function() {
+                    $('.ui.dropdown')
+                        .dropdown({
+                            on: 'click'
+                        })
+                    ;
+                })
+            ;
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $('.special.card .image').dimmer({
+                    on: 'hover'
+                });
+                $('.star.rating').rating();
+                $('.card .dimmer') .dimmer({
+                    on: 'hover'
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <!-- Following Menu -->
+        <div id="following-menu" class="ui large top fixed hidden menu">
+            <div class="ui container">
+                <a class="active item" href="{% url 'erpp_main:index' %}">Home</a>
+                <a class="item">Work</a>
+                <a class="item">Company</a>
+                <a class="item">Careers</a>
+                <div class="right menu">
+                    <div class="item">
+                        <a class="ui button" href="{{ url_logn_dash }}">{{ icon_logn_dash|safe }}{{ logn_dash }}</a>
+                    </div>
+                    <div class="item">
+                        <a class="ui primary button" href="{{ url_sign_logt }}">{{ icon_sign_logt|safe }}{{ sign_logt }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <div id="sidebar-menu" class="ui vertical inverted sidebar menu">
+            <a class="active item" href="{% url 'erpp_main:index' %}">Home</a>
+            <a class="item">Work</a>
+            <a class="item">Company</a>
+            <a class="item">Careers</a>
+            <a class="item" href="{{ url_logn_dash }}">{{ icon_logn_dash|safe }}{{ logn_dash }}</a>
+            <a class="item" href="{{ url_sign_logt }}">{{ icon_sign_logt|safe }}{{ sign_logt }}</a>
+        </div>
+
+
+        <div class="pusher">
+            <div id="master-menu" class="ui inverted vertical login center aligned segment">
+                <div class="ui container">
+                    <div class="ui large secondary inverted pointing menu">
+                        <a class="toc item">
+                            <i class="sidebar icon"></i>
+                        </a>
+                        <a class="active item" href="{% url 'erpp_main:index' %}">Home</a>
+                        <a class="item">Work</a>
+                        <a class="item">Company</a>
+                        <a class="item">Careers</a>
+                        <div class="right item">
+                            <a class="ui inverted button" href="{{ url_logn_dash }}">{{ icon_logn_dash|safe }}{{ logn_dash }}</a>
+                            <a class="ui inverted button" href="{{ url_sign_logt }}">{{ icon_sign_logt|safe }}{{ sign_logt }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-content">
+                {% block content %}{% endblock %}
+            </div>
+
+            <div class="ui inverted vertical footer segment">
+                <div class="ui container">
+                    <div class="ui stackable inverted divided equal height stackable grid">
+                        <div class="three wide column">
+                            <h4 class="ui inverted header">About</h4>
+                            <div class="ui inverted link list">
+                                <a href="#" class="item">Sitemap</a>
+                                <a href="#" class="item">Contact Us</a>
+                                <a href="#" class="item">Religious Ceremonies</a>
+                                <a href="#" class="item">Gazebo Plans</a>
+                            </div>
+                        </div>
+                        <div class="three wide column">
+                            <h4 class="ui inverted header">Services</h4>
+                            <div class="ui inverted link list">
+                                <a href="#" class="item">Banana Pre-Order</a>
+                                <a href="#" class="item">DNA FAQ</a>
+                                <a href="#" class="item">How To Access</a>
+                                <a href="#" class="item">Favorite X-Men</a>
+                            </div>
+                        </div>
+                        <div class="seven wide column">
+                            <h4 class="ui inverted header">Footer Header</h4>
+                            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
