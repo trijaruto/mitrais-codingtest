@@ -1,46 +1,28 @@
 # ERP PAPATONG
 
-An utterly fantastic project starter template for Django 2.0.
+####What is ERP?
+####ERP stands for Enterprise Resource Planning
+What is the simplest ERP definition? Think about all the core processes needed to run a company: finance, HR, manufacturing, supply chain, services, procurement, and others. At its most basic level, ERP integrates these processes into a single system. But new ERP systems are anything but basic. They provide visibility, analytics, and efficiency across every aspect of a business. Using the latest technologies, ERP systems facilitate the flow of real-time information across departments, so businesses can make data-driven decisions and manage performance – live
 
 ## Features
 
-- Production-ready configuration for Static Files, Database Settings, Gunicorn, etc.
-- Enhancements to Django's static file serving functionality via WhiteNoise.
-- Latest Python 3.6 runtime environment.
+- Underconstruction, oke guys, lets create this app :P
 
-## How to Use
+## How to run this app
+###Requirements
+To run this project, we need this requirements:
 
-To use this project, follow these steps:
+1. Python 3.x.x, (recomended new python stable https://www.python.org/downloads/)
+2. django 2.x.x  (recomended new django https://www.djangoproject.com/download/)
+3. postgresql 10 (recomended new postgresql https://www.postgresql.org/download/)
+4. package for app (all package in Pipfile)
 
-1. Create your working environment.
-2. Install Django (`$ pipenv install django`)
-3. Create a new project using this template
+###Run app
+To run this project, follow these steps:
 
-## Creating Your Project
-
-Using this template to create a new Django app is easy::
-
-    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
-
-(If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
-
-You can replace ``helloworld`` with your desired project name.
-
-## Deployment to Heroku
-
-    $ git init
-    $ git add -A
-    $ git commit -m "Initial commit"
-
-    $ heroku create
-    $ git push heroku master
-
-    $ heroku run python manage.py migrate
-
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
-
-
-## License: MIT
+1. Install python3 
+2. Install Django2
+3. to be continue...
 
 ## Further Reading
 
