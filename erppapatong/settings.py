@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #USER
     'erpp_main.apps.ErppMainConfig',
-    #'erpg_auth.apps.ErpgAuthConfig',
-    #'erpg_dasboard.apps.ErpgDasboardConfig',
+    'erpp_auth.apps.ErppAuthConfig',
+    'erpp_dasboard.apps.ErppDasboardConfig',
     #ADMIN
     #'_erpg_mainadmin.apps.ErpgMainadminConfig',
     #'_erpg_authadmin.apps.ErpgAuthadminConfig',
@@ -89,7 +89,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #'erpg_auth.middleware.ErpAuthSessionExpiredMiddleware',
+    'erpp_auth.middleware.ErpAuthSessionExpiredMiddleware',
     #'_erpg_authadmin.middleware.ErpgAuthAdminSessionExpiredMiddleware',
 ]
 

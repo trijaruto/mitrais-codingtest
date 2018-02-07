@@ -1,0 +1,27 @@
+{% extends "erpp_main/main.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/removeaccount.css' %}">
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    {% if url_useraccount_doesnotexist %}
+                        <h3 class="ui header">Cannot find your account {{ ua_username_purl }} in {{ appname }}</h3>
+                        <p>create your account <a href="{{ url_sign_logt }}">{{ appname }}</a>.<br/>
+                    {% else %}
+                        {% if ua_isactive %}
+                            <h3 class="ui header">Cannot remove your account {{ ua_username_purl }}</h3>
+                            <p>your account has been active in {{ appname }}</p>
+                            <p>If you didn't create this SFCloud account and activated, please contact administrator to remove your account</p>
+                        {% else %}
+                            <h3 class="ui header">Your account {{ ua_username_purl }} has been removed</h3>
+                            <p>create your account <a href="{{ url_sign_logt }}">{{ appname }}</a>.<br/>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

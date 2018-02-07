@@ -21,8 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #USER
     url(r'^', include('erpp_main.urls')),
-    #url(r'^', include('erpg_auth.urls')),
-    #url(r'^', include('erpg_dasboard.urls')),
+    url(r'^', include('erpp_auth.urls')),
+    url(r'^', include('erpp_dasboard.urls')),
     #ADMIN
     #url(r'^erpg/admin/', include('_erpg_mainadmin.urls')),
     #url(r'^erpg/admin/', include('_erpg_authadmin.urls')),

@@ -5,11 +5,11 @@ from django.template.loader import render_to_string
 from django.core.mail import EmailMultiAlternatives
 from django.utils.html import strip_tags
 from django.urls import reverse
-from erpgedebog.utils.aescrypto import AESCrypto
+from erppapatong.utils.aescrypto import AESCrypto
 from datetime import datetime
 
 class SendEmail(object):
-    path_email = 'erpgedebog/email/'
+    path_email = 'erppapatong/email/'
     from_email = settings.APP_EMAIL
     bcc_email = settings.BCC_EMAIL
     context = {
@@ -31,9 +31,9 @@ class SendEmail(object):
         url_encrypt = AESCrypto(settings.AES_KEY)
         url_encryptAES = url_encrypt.on_encrypt(str(useraccount.ua_username)+':'+str(datetime.now()))
         self.context['ua_username'] =  useraccount.ua_username
-        self.context['urlactivating'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpg_auth:activation', kwargs={'purluaactivationcode': url_encryptAES})
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpg_auth:login')
-        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpg_auth:removeaccount', kwargs={'purluaactivationcode': url_encryptAES})
+        self.context['urlactivating'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpp_auth:activation', kwargs={'purluaactivationcode': url_encryptAES})
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpp_auth:login')
+        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpp_auth:removeaccount', kwargs={'purluaactivationcode': url_encryptAES})
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)
@@ -48,8 +48,8 @@ class SendEmail(object):
         url_encrypt = AESCrypto(settings.AES_KEY)
         url_encryptAES = url_encrypt.on_encrypt(str(useraccount.ua_username)+':'+str(datetime.now()))
         self.context['ua_username'] =  useraccount.ua_username
-        self.context['urlresetpassword'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpg_auth:resetpassword', kwargs={'purlresetpassword': url_encryptAES})
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpg_auth:login')
+        self.context['urlresetpassword'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpp_auth:resetpassword', kwargs={'purlresetpassword': url_encryptAES})
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('erpp_auth:login')
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)
@@ -62,7 +62,7 @@ class SendEmail(object):
 
         self.context['uaa_username'] =  useraccountadmin.uaa_username
         self.context['uaa_userpassword'] = uaa_userpassword_token
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:login')
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:login')
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)
@@ -77,9 +77,9 @@ class SendEmail(object):
         url_encrypt = AESCrypto(settings.AES_KEY)
         url_encryptAES = url_encrypt.on_encrypt(str(useraccountadmin.uaa_username)+':'+str(datetime.now()))
         self.context['uaa_username'] =  useraccountadmin.uaa_username
-        self.context['urlsendactivationcode'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:sendactivation', kwargs={'purlsenduaactivationcode': url_encryptAES})
-        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:removeaccount', kwargs={'purluaaremovecode': url_encryptAES})
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:login')
+        self.context['urlsendactivationcode'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:sendactivation', kwargs={'purlsenduaactivationcode': url_encryptAES})
+        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:removeaccount', kwargs={'purluaaremovecode': url_encryptAES})
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:login')
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)
@@ -94,9 +94,9 @@ class SendEmail(object):
         url_encrypt = AESCrypto(settings.AES_KEY)
         url_encryptAES = url_encrypt.on_encrypt(str(useraccountadmin.uaa_username)+':'+str(datetime.now()))
         self.context['uaa_username'] =  useraccountadmin.uaa_username
-        self.context['urlactivating'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:activation', kwargs={'purluaactivationcode': url_encryptAES})
-        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:removeaccount', kwargs={'purluaaremovecode': url_encryptAES})
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:login')
+        self.context['urlactivating'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:activation', kwargs={'purluaactivationcode': url_encryptAES})
+        self.context['urlremoveaccount'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:removeaccount', kwargs={'purluaaremovecode': url_encryptAES})
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:login')
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)
@@ -111,8 +111,8 @@ class SendEmail(object):
         url_encrypt = AESCrypto(settings.AES_KEY)
         url_encryptAES = url_encrypt.on_encrypt(str(useraccountadmin.uaa_username)+':'+str(datetime.now()))
         self.context['uaa_username'] =  useraccountadmin.uaa_username
-        self.context['urlresetpassword'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:resetpassword', kwargs={'purlresetpassword': url_encryptAES})
-        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpg_authadmin:login')
+        self.context['urlresetpassword'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:resetpassword', kwargs={'purlresetpassword': url_encryptAES})
+        self.context['urllogin'] = settings.SERVER_SCHEMES+settings.DOMAIN_NAME+reverse('_erpp_authadmin:login')
 
         html_content = render_to_string(template_file, self.context)
         text_content = strip_tags(html_content)

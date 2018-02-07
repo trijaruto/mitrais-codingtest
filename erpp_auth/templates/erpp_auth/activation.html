@@ -1,0 +1,25 @@
+{% extends "erpp_main/main.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'stylesheets/activation.css' %}">
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    {% if url_link_expired %}
+                        <h3 class="ui header">Link Expired</h3>
+                    {% else %}
+                        {% if on_session %}
+                            <h3 class="ui header">Your account has been activated</h3>
+                            <p>Welcome {{ ua_username_purl }}, to {{ appname }}</p>
+                        {% else %}
+                            <h3 class="ui header">Your account {{ ua_username_purl }} has been activated</h3>
+                            You can login to your account at <a href="{{ urllogin }}">{{ appname }} Login</a>.<br/>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
